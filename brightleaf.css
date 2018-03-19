@@ -1,0 +1,36 @@
+body{
+  background:   white;
+  color:        black;
+  font-family: 'Limelight', cursive;
+}
+/* 
+div {
+  background: transparent;
+  border: 0;
+  width: 200px;
+  height: 500px;
+  padding: 0;
+} */
+
+svg.svg-def{
+  width:     0;
+  height:    0;
+/*   overflow:  hidden; */
+/*   visibility: hidden; */
+}
+
+svg.btn-shimmer{
+	width:         100%;
+  height:         500px;
+}
+
+
+ text { 
+  fill:          url(#svg-dark-shimmer); 
+  font-size:     200px;
+  width:         100%;
+  text-align:    center;
+/*   text-transform: uppercase; */
+/*   font-weight:    bold; */
+  
+}
