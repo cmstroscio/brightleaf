@@ -35,23 +35,23 @@ svg.svg-def {
   /*   overflow:  hidden; */
   /*   visibility: hidden; */
 }
-svg.logo-shimmer {
+.logo {
+  display: flex;
+  justify-content: center;
   width: 100%;
+}
+.logo__shimmer {
+  width: 1100px;
   height: 300px;
 }
 text {
   fill: url(#svg-dark-shimmer);
   font-size: 200px;
-  width: 100%;
-  text-align: center;
-  /*   text-transform: uppercase; */
-  /*   font-weight:    bold; */
 }
 /*anchor links*/
-
 .anchor-links {
   width: 100%;
-  height: 100px;
+  height: auto;
   background-color: lightgoldenrodyellow;
   opacity: 0.9;
   display: flex;
@@ -73,7 +73,7 @@ text {
   color: #c44400;
 }
 .stripe {
-  height: 300px;
+  height: auto;
   padding: 20px;
 }
 .stripe:nth-child(odd) {
