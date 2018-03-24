@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
-    <link href="brightleaf.css" rel="stylesheet">
-    <svg class="svg-def">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+  <link href="brightleaf.css" rel="stylesheet">
+  <title></title>
+</head>
+<body>
+  <svg class="svg-def">
   <defs>
-      <linearGradient id="svg-dark-shimmer" fy="0">
-        <stop offset="0" stop-color=" #DE5531" />
-        <stop offset="0.3" stop-color="#ffff59" />
-        <stop offset="0.6" stop-color="#ffeb0b" />
-        <stop offset="0.7" stop-color="#c44400" />
-        <stop offset="1" stop-color="#DE5531" />
-        <animateTransform attributeName="gradientTransform"
-                          attributeType="XML"
-                          type="translate"
-                          from="-5 0"
-                          to="5 0"
-                          dur="15s"
-                          repeatCount="indefinite"/>
-      </linearGradient>
-  </defs>
-</svg>
-  </head>
-  <div>
-<!--   <div> -->
-<svg class="btn-shimmer">
-  <text dy="1em">Brightleaf</text>
-</svg>
-<!-- </div> -->
+    <lineargradient fy="0" id="svg-dark-shimmer">
+      <stop offset="0" stop-color=" #DE5531"></stop>
+      <stop offset="0.3" stop-color="#ffff59"></stop>
+      <stop offset="0.6" stop-color="#ffeb0b"></stop>
+      <stop offset="0.7" stop-color="#c44400"></stop>
+      <stop offset="1" stop-color="#DE5531"></stop>
+      <animatetransform attributename="gradientTransform" attributetype="XML" dur="15s" from="-5 0" repeatcount="indefinite" to="5 0" type="translate"></animatetransform>
+    </lineargradient>
+  </defs></svg>
+  <div class="hero">
+    <svg class="logo-shimmer">
+    <text dy="1em">
+      Brightleaf
+    </text></svg>
   </div>
-
-  <audio controls>
-  <!-- <source src="horse.ogg" type="audio/ogg"> -->
-  <source src="src/audio/100-miles.wav" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
+  <div class="anchor-links">
+    <ul class="anchor-links__list">
+      <li class="anchor-links__list-item">
+        <a class="anchor-links__link" href="#about">About</a>
+      </li>
+      <li class="anchor-links__list-item">
+        <a class="anchor-links__link" href="#booking">Booking</a>
+      </li>
+      <li class="anchor-links__list-item">
+        <a class="anchor-links__link" href="#music">Music</a>
+      </li>
+      <li class="anchor-links__list-item">
+        <a class="anchor-links__link" href="#dope">Dope</a>
+      </li>
+    </ul>
+  </div>
+  <div class="stripe" id="about"></div>
+  <div class="stripe" id="booking"></div>
+  <div class="stripe" id="music">
+    <audio controls=""><!-- <source src="horse.ogg" type="audio/ogg"> -->
+     <source src="src/audio/100-miles.wav" type="audio/mpeg"> Your browser does not support the audio element.</audio>
+  </div>
+  <div class="stripe" id="dope">
+    dope
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+  </script> 
+  <script src="src/brightleaf.js" type="text/javascript">
+  </script>
+</body>
 </html>

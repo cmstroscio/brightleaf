@@ -1,6 +1,12 @@
-body{
-  background:   white;
-  color:        black;
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  background: white;
+  color: black;
   font-family: 'Limelight', cursive;
 }
 /* 
@@ -12,25 +18,51 @@ div {
   padding: 0;
 } */
 
-svg.svg-def{
-  width:     0;
-  height:    0;
-/*   overflow:  hidden; */
-/*   visibility: hidden; */
+svg.svg-def {
+  width: 0;
+  height: 0;
+  /*   overflow:  hidden; */
+  /*   visibility: hidden; */
 }
-
-svg.btn-shimmer{
-	width:         100%;
-  height:         500px;
+svg.logo-shimmer {
+  width: 100%;
+  height: 300px;
 }
+text {
+  fill: url(#svg-dark-shimmer);
+  font-size: 200px;
+  width: 100%;
+  text-align: center;
+  /*   text-transform: uppercase; */
+  /*   font-weight:    bold; */
+}
+/*anchor links*/
 
-
- text { 
-  fill:          url(#svg-dark-shimmer); 
-  font-size:     200px;
-  width:         100%;
-  text-align:    center;
-/*   text-transform: uppercase; */
-/*   font-weight:    bold; */
-  
+.anchor-links {
+  width: 100%;
+  height: 100px;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+}
+.anchor-links__list {
+  list-style: none;
+  display: flex;
+}
+.anchor-links__list-item {
+  padding: 20px;
+}
+.anchor-links__link {
+  color: #DE5531;
+  text-decoration: none;
+  font-size: 26px;
+}
+.anchor-links__link:hover {
+  color: #ffeb0b;
+}
+.stripe {
+  height: 300px;
+}
+.stripe:nth-child(odd) {
+  background-color: lightgrey;
 }
