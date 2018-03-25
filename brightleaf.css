@@ -5,7 +5,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  /*background: white;*/
+  /* background by SVGBackgrounds.com */
   color: black;
   font-family: 'Limelight', cursive;
   background-color: #c44400;
@@ -25,6 +25,12 @@ p {
 a {
   color: #DE5531;
   text-decoration: none;
+}
+.link--on-color {
+ color: #ffff59;
+}
+.link--on-color:hover {
+ color: #ffeb0b;
 }
 a:hover {
   color: #c44400;
@@ -129,7 +135,7 @@ text {
 .anchor-links__link {
   color: #DE5531;
   text-decoration: none;
-  font-size: 26px;
+  font-size: 36px;
 }
 .anchor-links__link:hover {
   color: #c44400;
