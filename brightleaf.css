@@ -26,14 +26,24 @@ a {
   color: #DE5531;
   text-decoration: none;
 }
+a:hover {
+  color: #c44400;
+}
 .link--on-color {
  color: #ffff59;
 }
 .link--on-color:hover {
  color: #ffeb0b;
 }
-a:hover {
-  color: #c44400;
+.link--heading {
+  color: black;
+  font-family: 'Merriweather', serif;
+}
+.fa-arrow-circle-right {
+  color: #DE5531;
+}
+.fa-arrow-circle-right:hover {
+  color: black;
 }
 svg.svg-def {
   width: 0;
