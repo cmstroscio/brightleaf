@@ -43,12 +43,12 @@ a:hover {
   color: black;
   font-family: 'Merriweather', serif;
 }
-.fa-arrow-circle-right {
+/*.fa-arrow-circle-right {
   color: #DE5531;
 }
 .fa-arrow-circle-right:hover {
-  color: black;
-}
+  color: #c44400;
+}*/
 svg.svg-def {
   width: 0;
   height: 0;
