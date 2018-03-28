@@ -31,6 +31,8 @@ a:hover {
 }
 .link--on-color {
  color: #ffff59;
+ font-size: 22px;
+ font-family: 'Merriweather', serif;
 }
 .link--on-color:hover {
  color: #ffeb0b;
@@ -48,8 +50,6 @@ a:hover {
 svg.svg-def {
   width: 0;
   height: 0;
-  /*   overflow:  hidden; */
-  /*   visibility: hidden; */
 }
 .logo {
   display: flex;
@@ -125,8 +125,6 @@ text {
     width: 400px;
   }
 }
-
-/*anchor links*/
 .anchor-links {
   width: 100%;
   height: auto;
@@ -160,13 +158,29 @@ text {
 }
 .stripe {
   height: auto;
+  padding: 30px;
+}
+.stripe--center {
+  text-align: center;
+}
+.stripe--flex {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.stripe--flex-item {
+  background: #ffeb0b;
+  margin: 20px;
   padding: 20px;
+}
+.stripe--flex-item-heading {
+  text-align: center;
+  color: #DE5531;
 }
 .stripe:nth-child(odd) {
   background-color: lightgoldenrodyellow;
   opacity: 0.8;
 }
-
 .hero {
   padding: 20px;
 }
