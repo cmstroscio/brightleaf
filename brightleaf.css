@@ -172,6 +172,7 @@ text {
 }
 .stripe--flex-item {
   background: #ffeb0b;
+  border: 1px solid #DE5531;
   margin: 20px;
   padding: 20px;
 }
