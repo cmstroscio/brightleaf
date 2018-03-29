@@ -23,11 +23,11 @@ p {
   font-size: 22px;
 }
 a {
-  color: #DE5531;
+  color: #c44400;
   text-decoration: none;
 }
 a:hover {
-  color: #c44400;
+  color: #DE5531;
 }
 .link--on-color {
  display: block;
@@ -161,6 +161,7 @@ text {
 .stripe {
   height: auto;
   padding: 30px;
+  text-align: center;
 }
 .stripe--center {
   text-align: center;
