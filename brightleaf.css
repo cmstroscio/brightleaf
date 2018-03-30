@@ -29,14 +29,15 @@ a {
 a:hover {
   color: #DE5531;
 }
-@media only screen and (max-width: 768px) {
+/*FORM FOR PAYPAL*/
+/*@media only screen and (max-width: 768px) {
   form {
     width: 100%
   }
   input[type="image"] {
    width: 180px;
   }
-}  
+} */ 
 .link--on-color {
  display: block;
  color: #ffff59;
