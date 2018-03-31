@@ -29,6 +29,11 @@ a {
 a:hover {
   color: #DE5531;
 }
+@media only screen and (max-width: 768px) {
+  audio {
+    max-width: 250px;
+  }
+}
 /*FORM FOR PAYPAL*/
 /*@media only screen and (max-width: 768px) {
   form {
