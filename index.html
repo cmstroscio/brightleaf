@@ -14,25 +14,39 @@
   <title>Brightleaf is a band.</title>
 </head>
 <body>
-  <svg class="svg-def">
-  <defs>
-    <lineargradient fy="0" id="svg-dark-shimmer">
-      <stop offset="0" stop-color=" #DE5531"></stop>
-      <stop offset="0.3" stop-color="#ffff59"></stop>
-      <stop offset="0.6" stop-color="#ffeb0b"></stop>
-      <stop offset="0.7" stop-color="#c44400"></stop>
-      <stop offset="1" stop-color="#DE5531"></stop>
-      <animatetransform attributename="gradientTransform" attributetype="XML" dur="15s" from="-5 0" repeatcount="indefinite" to="5 0" type="translate"></animatetransform>
-    </lineargradient>
-  </defs></svg>
+<!--   <svg class="svg-def">
+    <defs>
+      <lineargradient fy="0" id="svg-dark-shimmer">
+        <stop offset="0" stop-color=" #DE5531"></stop>
+        <stop offset="0.3" stop-color="#ffff59"></stop>
+        <stop offset="0.6" stop-color="#ffeb0b"></stop>
+        <stop offset="0.7" stop-color="#c44400"></stop>
+        <stop offset="1" stop-color="#DE5531"></stop>
+        <animatetransform attributename="gradientTransform" attributetype="XML" dur="15s" from="-5 0" repeatcount="indefinite" to="5 0" type="translate"></animatetransform>
+      </lineargradient>
+    </defs>
+  </svg> -->
   <div class="hero">
     <div class="logo">
-      <svg class="logo__shimmer">
+      <svg viewBox="0 0 960 300">
+        <symbol id="s-text">
+          <text text-anchor="middle" x="50%" y="80%">Brightleaf</text>
+        </symbol>
+
+        <g class = "g-ants">
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+        </g>
+      </svg>
+      <!-- <svg class="logo__shimmer">
         <text dy="1em">
           Brightleaf
         </text>
+      </svg> -->
     </div>
-    </svg>
   </div>
   <div class="anchor-links">
     <ul class="anchor-links__list">

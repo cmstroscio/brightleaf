@@ -66,7 +66,9 @@ a:hover {
 .fa-arrow-circle-right:hover {
   color: #c44400;
 }*/
-svg.svg-def {
+
+/*old svg */
+/*svg.svg-def {
   width: 0;
   height: 0;
 }
@@ -92,7 +94,7 @@ text {
   .logo__shimmer {
     width: 1000px;
   }
-}
+}*/
 
 @media only screen and (max-width: 1024px) {
   .hero {
@@ -203,7 +205,7 @@ text {
   text-align: center;
   color: #DE5531;
 }
-.stripe:nth-child(odd) {
+.stripe:nth-child(even) {
   background-color: lightgoldenrodyellow;
   opacity: 0.8;
 }
@@ -212,4 +214,53 @@ text {
 }
 .hero {
   padding: 20px;
+}
+
+
+/*ants svg*/
+
+svg {
+    display: block;
+    font: 10.5em 'Limelight';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    /*stroke: black;*/
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+  stroke: #ffeb0b;
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+  stroke: #ffeb0b;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+  stroke: #BD0034;
+  animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+  stroke: #840037;
+  animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+  stroke: #c44400;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+  100% {stroke-dashoffset: -45%;}
 }
