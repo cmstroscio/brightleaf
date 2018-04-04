@@ -16,8 +16,8 @@ body {
   margin: 0;
 
 }
-.content {
-    /*margin: 0;*/
+h1 {
+  font-size: 34px;
 }
 ul {
   font-size: 22px;
@@ -175,7 +175,7 @@ text {
 .anchor-links__link {
   color: #DE5531;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 30px;
 }
 .anchor-links__link:hover {
   color: #c44400;
@@ -240,9 +240,14 @@ svg {
     fill: none;
     /*stroke: black;*/
     stroke-dasharray: 30% 29%;
-    stroke-width: 6px;
+    stroke-width: 5px;
     stroke-dashoffset: 0%;
     animation: stroke-offset 7.5s infinite linear;
+}
+@media only screen and (max-width: 768px) {
+  .text-copy {
+    stroke-width: 3px;
+  }
 }
 
 .text-copy:nth-child(1){
