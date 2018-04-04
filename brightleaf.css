@@ -20,7 +20,11 @@ body {
     /*margin: 0;*/
 }
 ul {
+  font-size: 22px;
   list-style: none;
+}
+li {
+    margin-bottom: 4px;
 }
 p,
 a:not(.anchor-links__link) {
@@ -50,13 +54,13 @@ a:hover {
    width: 180px;
   }
 } */ 
-.link--on-color {
+/*.link--on-color {
  display: block;
  color: #ffff59;
  font-size: 22px;
  font-family: 'Merriweather', serif;
- margin-bottom: 10px;
-}
+
+}*/
 .link--on-color:hover {
  color: #ffeb0b;
 }
