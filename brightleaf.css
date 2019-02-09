@@ -18,9 +18,9 @@ body {
 
 }
 h1 {
-  font-size: 34px;
+  font-size: 32px;
 }
-h2 {
+h2 {  
     line-height: 1.5;
 }
 ul {
@@ -49,6 +49,9 @@ a:hover {
   audio {
     max-width: 250px;
   }
+}
+.fa.fa-arrow-circle-right{
+  font-size: 1em;
 }
 /*FORM FOR PAYPAL*/
 /*@media only screen and (max-width: 768px) {
@@ -163,7 +166,7 @@ text {
   }
 }
 .anchor-links {
-  border-top: 1px solid;
+  border-top: 1px solid #dfdfdf;
   width: 100%;
   height: auto;
   /*background-color: lightgoldenrodyellow;*/
@@ -195,7 +198,7 @@ text {
   }
 }
 .stripe {
-  border-top: 1px solid;
+  border-top: 1px solid #dfdfdf;
   height: auto;
   padding: 30px;
   text-align: center;
@@ -222,6 +225,7 @@ text {
 .stripe--flex-item-heading {
   text-align: center;
   color: #c44400;
+  font-size: 20px;
 }
 .stripe:nth-child(even) {
   /*background-color: lightgoldenrodyellow;*/
