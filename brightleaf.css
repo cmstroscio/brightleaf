@@ -20,6 +20,9 @@ body {
 h1 {
   font-size: 34px;
 }
+h2 {
+    line-height: 1.5;
+}
 ul {
   font-size: 22px;
   list-style: none;
@@ -67,7 +70,7 @@ a:hover {
  color: #ffeb0b;
 }
 .link--heading {
-  color: black;
+  /*color: #191919;*/
   font-family: 'Merriweather', serif;
 }
 /*.fa-arrow-circle-right {
@@ -206,8 +209,8 @@ text {
   flex-flow: row wrap;
 }
 .stripe--flex-item {
-  background: #ffeb0b;
-  border: 1px solid #DE5531;
+  /*background: #ffeb0b;*/
+  border: 1px solid #840037;
   margin: 20px;
   padding: 20px;
 }
