@@ -166,8 +166,9 @@ text {
   }
 }
 .anchor-links {
-  border-top: 1px solid #e2bd00;
-  width: 100%;
+  border-top: 2px solid #e2bd00;
+  max-width: 86%;
+  margin: 0 auto;
   height: auto;
   /*background-color: lightgoldenrodyellow;*/
   opacity: 0.8;
@@ -198,8 +199,10 @@ text {
   }
 }
 .stripe {
-  border-top: 1px solid #e2bd00;
+  border-top: 2px solid #e2bd00;
   height: auto;
+  max-width: 82%;
+  margin: 0 auto;
   padding: 30px;
   text-align: center;
 }
