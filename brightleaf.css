@@ -47,7 +47,7 @@ a:hover {
 }
 @media only screen and (max-width: 768px) {
   audio {
-    max-width: 250px;
+    max-width: 206px;
   }
 }
 .fa.fa-arrow-circle-right{
@@ -154,6 +154,9 @@ text {
   }
   .logo__shimmer {
     width: 440px;
+  }
+  p {
+    font-size: 18px;
   }
 }
 
