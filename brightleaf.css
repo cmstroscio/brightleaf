@@ -296,3 +296,8 @@ svg {
 @keyframes stroke-offset{
   100% {stroke-dashoffset: -45%;}
 }
+
+body div {
+  /* get rid of stupid blue line when you click anchor links*/
+  outline: none !important;;
+}
