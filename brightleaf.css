@@ -209,6 +209,15 @@ text {
   padding: 30px;
   text-align: center;
 }
+@media only screen and (max-width: 768px) {
+  .stripe {
+    max-width: 96%;
+    padding: 5px;
+  }
+}
+
+
+
 .stripe--center {
   text-align: center;
 }
