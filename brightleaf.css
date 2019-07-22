@@ -232,6 +232,9 @@ text {
   margin: 20px;
   padding: 20px;
 }
+.stripe--flex-item-video {
+  border: none;
+}
 @media only screen and (max-width: 768px) {
   .stripe--flex-item {
     width: 100%;
