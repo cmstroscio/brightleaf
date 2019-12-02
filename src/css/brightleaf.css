@@ -24,6 +24,10 @@ h1 {
 h2 {  
     line-height: 1.5;
 }
+.heading--highlight {
+  font-size: 30px;
+  color: #c44400;
+}
 ul {
   font-size: 22px;
   list-style: none;
@@ -38,6 +42,7 @@ a:not(.anchor-links__link) {
 }
 p {
   font-size: 22px;
+  line-height: 1.7;
 }
 a {
   color: #BD0034;
@@ -45,6 +50,16 @@ a {
 }
 a:hover {
   color: #DE5531;
+}
+.cta {
+    border: 2px solid #BD0034;
+    padding: 12px;
+    text-transform: uppercase;
+}
+.cta:hover {
+   background: #c44400;
+   border: 1px solid #BD0034;
+   color: #fff;
 }
 @media only screen and (max-width: 768px) {
   audio {
@@ -221,6 +236,9 @@ text {
   padding: 30px;
   text-align: center;
 }
+#about {
+  text-align: left;
+}
 @media only screen and (max-width: 768px) {
   .stripe {
     max-width: 96%;
@@ -228,8 +246,9 @@ text {
   }
 }
 
-
-
+.stripe--wide {
+  max-width: 90%;
+}
 .stripe--center {
   text-align: center;
 }
@@ -249,7 +268,7 @@ text {
 }
 @media only screen and (max-width: 768px) {
   .stripe--flex-item {
-    width: 100%;
+    max-width: 100%;
   }
 }
 .stripe--flex-item-heading {
@@ -289,6 +308,10 @@ svg {
   .text-copy {
     stroke-width: 3px;
   }
+  svg {
+    height: 136px;
+    margin: 0 auto;
+  }
 }
 
 .text-copy:nth-child(1){
@@ -325,3 +348,62 @@ body div {
   /* get rid of stupid blue line when you click anchor links*/
   outline: none !important;;
 }
+
+
+.gallery-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 60px 6px;
+}
+
+#gallery {
+  text-align: center;
+}
+
+.small-print {
+  font-size: 16px;
+}
+/*
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    grid-gap: 20px;
+}
+
+.photo1 {
+  grid-column: span 6;
+  grid-row: 1;
+}
+.photo2 {
+  grid-column: span 6;
+  grid-row: 1;
+}
+.photo3 {
+  grid-column: span 6;
+  grid-row: 2;
+}
+.photo4 {
+  grid-column: span 6;
+  grid-row: 2;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .photo1 {
+    grid-column: span 12;
+    grid-row: 1;
+  }
+  .photo2 {
+    grid-column: span 12;
+    grid-row: 2;
+  }
+  .photo3 {
+    grid-column: span 12;
+    grid-row: 3;
+  }
+  .photo4 {
+    grid-column: span 12;
+    grid-row: 4;
+  }
+}*/
