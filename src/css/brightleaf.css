@@ -288,7 +288,7 @@ text {
 
 /*ants svg*/
 
-svg {
+.name {
     display: block;
     font: 146px 'Limelight';
     margin: 20px auto;
@@ -349,6 +349,16 @@ body div {
   outline: none !important;;
 }
 
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+svg.cards {
+    min-height: 400px;
+}
 
 .gallery-container {
     display: flex;
