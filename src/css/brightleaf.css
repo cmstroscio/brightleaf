@@ -260,7 +260,7 @@ text {
 .stripe--flex-item {
   /*background: #ffeb0b;*/
   border: 1px solid #840037;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
 }
 .stripe--flex-item-video {
@@ -269,6 +269,17 @@ text {
 @media only screen and (max-width: 768px) {
   .stripe--flex-item {
     max-width: 100%;
+  }
+
+  .stripe--flex-item-video {
+    max-width: 80%;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .stripe--flex-item-video iframe {
+      max-width: 300px;
+      height: auto;
   }
 }
 .stripe--flex-item-heading {
@@ -374,6 +385,7 @@ svg.cards {
 .small-print {
   font-size: 16px;
 }
+
 /*
 .gallery-grid {
     display: grid;
