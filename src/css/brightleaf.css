@@ -24,6 +24,7 @@ h1 {
 }
 h2 {  
     line-height: 1.5;
+    margin-bottom: 24px;
 }
 .heading--highlight {
   font-size: 30px;
