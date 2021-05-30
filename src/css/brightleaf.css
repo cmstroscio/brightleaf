@@ -40,7 +40,7 @@ li {
 }
 p,
 a:not(.anchor-links__link) {
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', sans-serif;
 }
 p {
   font-size: 22px;
@@ -89,7 +89,7 @@ a:hover {
  display: block;
  color: #ffff59;
  font-size: 22px;
- font-family: 'Merriweather', serif;
+ font-family: 'Merriweather', sans-serif;
 
 }*/
 .link--on-color:hover {
@@ -97,7 +97,7 @@ a:hover {
 }
 .link--heading {
   /*color: #191919;*/
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', sans-serif;
 }
 /*.fa-arrow-circle-right {
   color: #DE5531;
